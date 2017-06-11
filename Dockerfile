@@ -1,4 +1,4 @@
-FROM zbrowse
+FROM nikitab/zbrowse
 
 RUN apt-get update && apt-get install -y tcpdump && rm -rf /var/lib/apt-lists/*
 
